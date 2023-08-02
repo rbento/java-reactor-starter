@@ -1,0 +1,40 @@
+[versions]
+# Plugins
+errorprone = "3.1.0"
+errorprone-core = "2.20.0"
+lombok = "8.0.1"
+spotless = "6.19.0"
+
+# Libraries
+assertj = "3.24.2"
+commons-lang3 = "3.12.0"
+commons-io = "2.11.0"
+reactor = "2022.0.9"
+junit-jupiter = "5.9.3"
+slf4j = "2.0.7"
+
+[libraries]
+# Gradle Plugin Classpath
+errorprone-gradle = { module = "net.ltgt.gradle:gradle-errorprone-plugin", version.ref = "errorprone" }
+lombok-gradle = { module = "io.freefair.gradle:lombok-plugin", version.ref = "lombok" }
+spotless-gradle = { module = "com.diffplug.spotless:spotless-plugin-gradle", version.ref = "spotless" }
+
+# Gradle Plugin Configuration
+errorprone-core = { module = "com.google.errorprone:error_prone_core", version.ref = "errorprone-core" }
+
+# Libraries
+assertj-core = { module = "org.assertj:assertj-core", version.ref = "assertj" }
+commons-io = { module = "commons-io:commons-io", version.ref = "commons-io" }
+commons-lang3 = { module = "org.apache.commons:commons-lang3", version.ref = "commons-lang3" }
+junit-jupiter = { module = "org.junit.jupiter:junit-jupiter", version.ref = "junit-jupiter" }
+reactor-bom = { module = "io.projectreactor:reactor-bom", version.ref = "reactor" }
+reactor-core = { module = "io.projectreactor:reactor-core" }
+reactor-test = { module = "io.projectreactor:reactor-test" }
+reactor-tools = { module = "io.projectreactor:reactor-tools" }
+reactor-blockhound = { module = "io.projectreactor.tools:blockhound", version = "1.0.8.RELEASE" }
+slf4j-simple = { module = "org.slf4j:slf4j-simple", version.ref = "slf4j" }
+
+[plugins]
+errorprone = { id = "net.ltgt.errorprone", version.ref = "errorprone" }
+lombok = { id = "io.freefair.lombok", version.ref = "lombok" }
+spotless = { id = "com.diffplug.spotless", version.ref = "spotless" }
