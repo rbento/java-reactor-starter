@@ -24,10 +24,10 @@ A starter project to practice [Reactive Programming](https://en.wikipedia.org/wi
 ./gradlew run
 ```
 
-### Testing with BlockHound
+### Running with BlockHound
 ---
 
-[https://github.com/reactor/BlockHound](https://github.com/reactor/BlockHound) is a Java agent that detects blocking calls from non-blocking threads.
+[BlockHound](https://github.com/reactor/BlockHound) is a Java agent that detects blocking calls from non-blocking threads.
 
 ```
 # At the entry point:
