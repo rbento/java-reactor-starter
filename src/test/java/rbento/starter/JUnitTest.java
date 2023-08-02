@@ -10,7 +10,7 @@ import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.*;
 
 @Slf4j
-class SampleTest {
+class MainTest {
 
     List<String> strings = new ArrayList<>();
 
