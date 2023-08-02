@@ -29,20 +29,24 @@ A starter project to practice [Reactive Programming](https://en.wikipedia.org/wi
 
 [BlockHound](https://github.com/reactor/BlockHound) is a Java agent that detects blocking calls from non-blocking threads.
 
-```
-# At the entry point:
+##### At the entry point
 
+```
     public static void main(String[] args) {
         BlockHound.install();
         // ...
     }
+```
 
-# Set the VM options for BlockHound:
+##### Set the VM options for BlockHound
 
+```
     -XX:+AllowRedefinitionToAddDeleteMethods
+```
 
-# Result when a blocking call is present:
+##### Result when a blocking call is present:
 
+```
     reactor.blockhound.BlockingOperationError: Blocking call! java.lang.Thread.sleep
 	    at java.base/java.lang.Thread.sleep(Native Method)
 	    at com.example.Example.lambda$exampleTest$0(Example.java:16)
