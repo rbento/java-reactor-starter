@@ -1,0 +1,16 @@
+plugins {
+  id 'rbento.starter.java-application-conventions'
+}
+
+dependencies {
+  implementation libs.commons.lang3
+  implementation platform(libs.reactor.bom)
+  implementation libs.reactor.blockhound
+  implementation libs.reactor.core
+  implementation libs.reactor.tools
+  testImplementation libs.reactor.test
+}
+
+application {
+  mainClass = 'rbento.starter.Main'
+}
