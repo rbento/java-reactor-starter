@@ -9,7 +9,6 @@ A starter project to practice [Reactive Programming](https://en.wikipedia.org/wi
 
 - [JDK 17](https://www.azul.com/downloads/?package=jdk#zulu) from Azul
 - [Gradle](https://gradle.org/releases/) 8.2.1
-- [Project Reactor](https://projectreactor.io)
 
 ### Build
 ---
@@ -28,9 +27,7 @@ A starter project to practice [Reactive Programming](https://en.wikipedia.org/wi
 ### Testing with BlockHound
 ---
 
-BlockHound is a Java agent that detects blocking calls from non-blocking threads.
-
-- [https://github.com/reactor/BlockHound](https://github.com/reactor/BlockHound)
+[https://github.com/reactor/BlockHound](https://github.com/reactor/BlockHound) is a Java agent that detects blocking calls from non-blocking threads.
 
 ```
 # At the entry point:
