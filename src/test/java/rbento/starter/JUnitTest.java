@@ -1,5 +1,5 @@
 
-/* Copyright (c) 2023 Rodrigo Bento */
+/* Copyright (c) 2022 Rodrigo Bento */
 
 package rbento.starter;
 
@@ -10,8 +10,7 @@ import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.*;
 
 @Slf4j
-class MainTest {
-
+class JUnitTest {
     List<String> strings = new ArrayList<>();
 
     @BeforeAll
