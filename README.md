@@ -2,7 +2,7 @@
 
 ![Build](https://github.com/rbento/java-reactor-starter/actions/workflows/gradle.yml/badge.svg)
 
-A starter project to practice [Reactive Programming](https://en.wikipedia.org/wiki/Reactive_programming) with [Project Reactor](https://projectreactor.io).
+A starter project to practice [Reactive Programming](https://en.wikipedia.org/wiki/Reactive_programming) with Java and [Project Reactor](https://projectreactor.io).
 
 ### Requirements
 ---
