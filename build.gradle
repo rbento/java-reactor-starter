@@ -3,11 +3,11 @@ plugins {
 }
 
 dependencies {
-  implementation libs.commons.lang3
   implementation platform(libs.reactor.bom)
   implementation libs.reactor.blockhound
   implementation libs.reactor.core
   implementation libs.reactor.tools
+  implementation libs.commons.lang3
   testImplementation libs.reactor.test
 }
 
