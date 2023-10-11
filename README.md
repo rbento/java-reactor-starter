@@ -42,6 +42,7 @@ A starter project to practice [Reactive Programming](https://en.wikipedia.org/wi
 
 ```
     -XX:+AllowRedefinitionToAddDeleteMethods
+    -XX:+EnableDynamicAgentLoading
 ```
 
 ##### Result when a blocking call is present:

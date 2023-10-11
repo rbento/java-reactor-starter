@@ -15,4 +15,4 @@ application {
   mainClass = 'rbento.starter.Main'
 }
 
-applicationDefaultJvmArgs = ["-XX:+AllowRedefinitionToAddDeleteMethods"]
+applicationDefaultJvmArgs = ["-XX:+UseZGC", "-XX:+AllowRedefinitionToAddDeleteMethods", "-XX:+EnableDynamicAgentLoading"]
