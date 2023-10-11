@@ -32,7 +32,7 @@ spotless {
   encoding 'UTF-8'
   java {
     target 'src/*/java/**/*.java'
-    targetExclude "${buildDir}/**"
+    targetExclude "${project.layout.buildDirectory}/**"
     importOrder()
     removeUnusedImports()
     palantirJavaFormat(libs.versions.palantir.java.format.get())
