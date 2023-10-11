@@ -35,7 +35,7 @@ spotless {
     targetExclude "${buildDir}/**"
     importOrder()
     removeUnusedImports()
-    palantirJavaFormat()
+    palantirJavaFormat(libs.versions.palantir.java.format.get())
     formatAnnotations()
     endWithNewline()
     licenseHeaderFile "${project.rootDir}/COPYRIGHT"
