@@ -7,8 +7,8 @@ A starter project to practice [Reactive Programming](https://en.wikipedia.org/wi
 ### Requirements
 ---
 
-- [JDK 17](https://www.azul.com/downloads/?package=jdk#zulu) from Azul
-- [Gradle](https://gradle.org/releases/) 8.2.1
+- [JDK 21](https://www.azul.com/downloads/?package=jdk#zulu) from Azul
+- [Gradle](https://gradle.org/releases/) 8.4
 
 ### Build
 ---
